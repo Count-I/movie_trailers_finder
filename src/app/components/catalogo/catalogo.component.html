@@ -1,0 +1,21 @@
+
+<app-navbar></app-navbar>
+
+<div class="peliculas">
+
+  <div class="targeta" *ngFor="let pelicula of filtro">
+   
+    <div>
+      <img [src]="pelicula.imagen">
+      <p>Nombre : {{ pelicula.titulo }}</p>
+      <p>duracion :{{pelicula.duracion}}</p>
+      <p>Visualizaciones: {{pelicula.vistas}}</p>
+      <a href="{{pelicula.url}}" Target="_blank"><button>ver trailer</button></a>
+      
+    </div>
+     
+   
+
+  </div>
+
+</div>
