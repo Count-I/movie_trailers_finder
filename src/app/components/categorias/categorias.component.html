@@ -1,0 +1,14 @@
+
+<h1>Categorías</h1>
+
+<div class ="cate">
+  
+  <div *ngFor="let categoria of categorias">
+ 
+  <button (click)='irACatalogo(categoria.nombre)'> 
+    
+    <p>{{categoria.nombre}}</p>
+  </button>
+  
+</div>
+  </div>

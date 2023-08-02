@@ -1,0 +1,13 @@
+.cate{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+button img{
+    width: 200px;
+    height: 250px;
+}
+
+h1{
+    text-align: center;
+}
