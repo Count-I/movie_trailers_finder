@@ -1,0 +1,16 @@
+
+<div class="text-white">
+
+  <h1 class="text-5xl">Categorías</h1>
+  
+  <div class ="text-2xl text-white flex justify-center justify-around mt-10">
+    
+    <div class="" *ngFor="let categoria of categorias">
+    
+      <button (click)='irACatalogo(categoria.nombre)'> 
+        
+        <p>{{categoria.nombre}}</p>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="m-8 bg-gray-500 rounded w-80 h-full flex flex-col justify-between rounded">
+    <div class="w-full ">
+        <img class="w-full max-h-64 object-fill rounded-t" [src]="pelicula.imagen">
+        <div class="box-border px-2 flex flex-col justify-around h-36">
+            <p>Nombre : {{ pelicula.titulo }}</p>
+            <p>duracion :{{pelicula.duracion}}</p>
+            <p>Visualizaciones: {{pelicula.vistas}}</p>
+        </div>
+    </div>
+    <iframe class="" [src]=trailerUrl title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    <!-- <a class="bg-slate-700 h-10 text-center rounded-b" Target="_blank">
+        <button type="button" (click)="handleButton($event)">{{buttonText}}</button></a> -->
+</div>
